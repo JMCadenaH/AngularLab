@@ -1,0 +1,49 @@
+.box {
+  background: #bada55;
+  border: 1px solid black;
+  padding: 10px 20px;
+  display: inline-block;
+
+  &.dragging {
+    background: coral;
+  }
+
+  &.sortable.dragging {
+    background: none;
+    border: 1px dashed black;
+    color: transparent;
+  }
+}
+
+button {
+  margin-top: 20px;
+}
+
+ul {
+  display: inline-flex;
+  margin: 0px;
+  padding: 0px;
+  flex-direction: column-reverse;
+
+  &.horizontal {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.dropzone {
+  padding: 20px;
+  margin: 20px 0;
+  background: lightgray;
+  min-height: 200px;
+  border: 1px solid black;
+
+  &.dropzone-activated {
+    border: 1px solid red;
+  }
+
+  &.dropzone-entered {
+    background: #efefef;
+  }
+}
+

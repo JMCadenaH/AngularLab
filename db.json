@@ -1,0 +1,61 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "fullName": "Mark",
+      "contactPreference": "email",
+      "email": "mark@email.com",
+      "phone": "5641238971",
+      "skills": [
+        {
+          "skillName": "C#",
+          "experienceInYears": 1,
+          "proficiency": "beginner"
+        },
+        {
+          "skillName": "Java",
+          "experienceInYears": 2,
+          "proficiency": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullName": "John C",
+      "contactPreference": "phone",
+      "email": "john@telstock.net",
+      "phone": "767",
+      "skills": [
+        {
+          "skillName": "Angular",
+          "experienceInYears": "24",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "HTML",
+          "experienceInYears": "5",
+          "proficiency": "advanced"
+        },
+        {
+          "skillName": "LINQ",
+          "experienceInYears": "8",
+          "proficiency": "advanced"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "fullName": "PETER",
+      "contactPreference": "phone",
+      "email": "PETER@telstock.net",
+      "phone": "55542",
+      "skills": [
+        {
+          "skillName": "C",
+          "experienceInYears": "4",
+          "proficiency": "advanced"
+        }
+      ]
+    }
+  ]
+}
