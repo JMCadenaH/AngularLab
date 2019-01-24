@@ -10,10 +10,11 @@ import { EmployeeService } from './employee/employee.service';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home.component';
 import { PageNotFoundComponent } from './page-not-found.component';
+import { DraggableModule } from './draggable/draggable.module';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, PageNotFoundComponent],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, DraggableModule],
   providers: [EmployeeService],
   bootstrap: [AppComponent]
 })

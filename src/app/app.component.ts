@@ -39,6 +39,7 @@ export class AppComponent {
 
   add(): void {
     this.trappedBoxes.push('New Trapped');
+    this.sortableList.push('13');
   }
 
   sort(event: SortEvent) {

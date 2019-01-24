@@ -14,7 +14,7 @@ const appRoutes: Routes = [
     path: 'employees',
      // set the preload property to true, using the route data property
     // If you do not want the module to be preloaded set it to false
-    data: { preload: false },
+    data: { preload: true },
     loadChildren: './employee/employee.module#EmployeeModule'
   },
   { path: 'home', component: HomeComponent },
